@@ -1,0 +1,1884 @@
+{
+    "lessons":
+    [
+        {
+            "id": "dcbcb963-79eb-46f6-9c48-2eb115061028",
+            "index": 1,
+            "title": "Python?! 🐍",
+            "sections":
+            [
+                {
+                    "id": "a1217d7f-a058-412b-bd43-3d89ed6b4d48",
+                    "index": 1,
+                    "title": "Python 🐍",
+                    "task": "Python is a simple but very powerful programming language. It can be used for nearly every developing task - from <b>automation</b> to <b>machine learning</b> and <b>web development</b>. <br><br> With python you can even work with <b>robots</b> like <b>amsel</b>. 🤖",
+                    "multipleChoice": null,
+                    "codeBlock": null,
+                    "feedbackFailed": null,
+                    "feedbackPassed": "<br><br>Why is everything in English?<br><br>It may be difficult in the beginning, but programming languages always use English wording. It will be much easier for you, if you learn everything in English.",
+                    "amselAction": null
+                },
+                {
+                    "id": "dc35eee9-81e4-4812-8d1f-349ce94155aa",
+                    "index": 2,
+                    "title": "The start",
+                    "task": "But no matter what you want to do with Python, you have to start from scratch.<br><br>Every program is a compilation of lines of code. And lines of code are instructions which are executed in the program.",
+                    "multipleChoice": null,
+                    "codeBlock": [{
+                        "type": "code",
+                        "content": "def welcome(name):"
+                    },
+                    {
+                        "type": "code",
+                        "content": " print('Welcome to space ' + name + '!')"
+                    },
+                    {
+                        "type": "code",
+                        "content": "welcome('Amsel')"
+                    },
+                    {
+                        "type": "output",
+                        "content": "Welcome to space Amsel!"
+                    }],
+                    "feedbackFailed": null,
+                    "feedbackPassed": "Looks overwhelming? Don’t worry you can learn everything 🦾 !",
+                    "amselAction": null
+                },
+                {
+                    "id": "768e47c2-dd6d-45f6-b052-2dbec99a6dcf",
+                    "index": 3,
+                    "title": "A new language",
+                    "task": "Learning programming languages is similar to learning real languages - with vocabulary, grammar and some rules which should be applied. The vocabulary and grammar of a programming language is called the syntax. You have to learn it to be able to code the instructions for your program.",
+                    "multipleChoice": null,
+                    "codeBlock": null,
+                    "feedbackFailed": null,
+                    "feedbackPassed": "Also it is necessary to practice and learn regularly. If you struggle at a certain point, don't hesitate to ask your professor, your colleagues or simple google your problem. It is completely normal to struggle from time to time 🙏🏻.",
+                    "amselAction": null
+                },
+                {
+                    "id": "c9001514-24b4-41b6-aa5d-d4e2ab24a2ce",
+                    "index": 4,
+                    "title": "Hello Amsel",
+                    "task": "Let's start with your first line of code. We will print „Hello Amsel“. Print is a build-in function of python and displays whatever is written in the brackets.",
+                    "multipleChoice": null,
+                    "codeBlock":
+                    [
+                        {
+                            "type": "code",
+                            "content": "print('"
+                        },
+                        {
+                            "type": "gap",
+                            "content": "Hello Amsel"
+                        },
+                        {
+                            "type": "code",
+                            "content": "')"
+                        },
+                        {
+                            "type": "output",
+                            "content": "Hello Amsel"
+                        }
+                    ],
+                    "feedbackFailed": "That is not right 🤔. Try again!",
+                    "feedbackPassed": "Perfect! Congratulations! 🎉🎊 <br><br>Your first line of code. The print function is really common and useful. We will will work with it in nearly every part of the tutorial.",
+                    "amselAction": {
+                        "type": "print",
+                        "parameter": ["Hello Amsel"]
+                    }
+                },
+                {
+                    "id": "62016942-863d-4cc2-a27b-9c5c4ef74c79",
+                    "index": 5,
+                    "title": "The developing environment",
+                    "task": "Before we start to go deeper into programming, you need to have a development environment on your computer. 💻 <br><br>The environment is the setup and tools you work with. <br>A part of it is the interpreter, a program which executes your code. Although you can learn with the Amsel App, you should also code, test and fulfill tasks on your computer. <br>Common interpreter are PyCharm from JetBrains or Visual Studio Code.",
+                    "multipleChoice": null,
+                    "codeBlock": null,
+                    "feedbackFailed": null,
+                    "feedbackPassed": "Both programs can be downloaded for free. A huge benefit of JetBrains is, that they offer students professional versions of all their tools for free after registration! 💰",
+                    "amselAction": null
+                }
+            ]
+        },
+        {
+            "id": "bc32c8f0-5f6f-409a-ac8b-886c2bb3bd0d",
+            "index": 2,
+            "title": "The Amsel",
+            "sections":
+            [
+                {
+                    "id": "f6bbbd67-5259-4316-8e1f-d3890ea798d1",
+                    "index": 1,
+                    "title": "Setup of Amsel 🐦",
+                    "task": "When you work with Amsel you first have to setup the robot. Please read the documentation and follow all steps listed under <b>Getting started</b> in the offical Amsel documentation: https://baumeise.github.io",
+                    "multipleChoice": null,
+                    "codeBlock": null,
+                    "feedbackFailed": null,
+                    "feedbackPassed": "On the mobile phone you are now ready to start. When you work with your computer, you first have to install the amsel library. An installation instruction can also be found in the official documentation.",
+                    "amselAction": null
+                },
+                {
+                    "id": "ad8d5bda-aa04-4c4d-ba93-beb00c43d12c",
+                    "index": 2,
+                    "title": "Amsel Connection",
+                    "task": "Let's try out the Amsel robot. To do so, please switch it on and connect to the Amsel network with your mobile phone or computer. You can do that directly from the connection button on the home screen of this app or through your phones wifi settings.",
+                    "multipleChoice": null,
+                    "codeBlock": null,
+                    "feedbackFailed": null,
+                    "feedbackPassed": "After you connected to the Amsel wlan we can try to interact with the robot.",
+                    "amselAction": null
+                },
+                {
+                    "id": "d09fc229-f4fe-4a94-a106-932f0d33374a",
+                    "index": 3,
+                    "title": "from amselpy import Amsel",
+                    "task": "Whenever you want to work with Amsel, you have to import the Amsel library at the beginning of your code. ",
+                    "multipleChoice": null,
+                    "codeBlock": [
+                        {
+                            "type": "code",
+                            "content": "from amselpy import Amsel"
+                        }
+                    ],
+                    "feedbackFailed": null,
+                    "feedbackPassed": "As easy as that. The Amsel library is super useful and makes it easy to work with Amsel.",
+                    "amselAction": null
+                },
+                {
+                    "id": "79de7680-a71c-414e-9723-2aa3b31758b1",
+                    "index": 4,
+                    "title": "Amsel instance",
+                    "task": "After importing the Amsel library you have to create an instance. The instance is used in every action Amsel takes. Here is how:",
+                    "multipleChoice": null,
+                    "codeBlock": [
+                        {
+                            "type": "code",
+                            "content": "#First create the instance. \n#The first amsel is the instance you can use in your code. \n#It uses the second Amsel() which was the on you importet before."
+                        },
+                        {
+                            "type": "code",
+                            "content": "amsel = Amsel()"
+                        }
+                    ],
+                    "feedbackFailed": null,
+                    "feedbackPassed": "Okay, now that we are able to use amsel on our code and are that way able to call the Amsel() function evry time, we shall have a closer look at the functionalities of amsel",
+                    "amselAction": null
+                },
+                {
+                    "id": "a5c5149b-d02f-4f57-b1c3-65d9e1ecf189",
+                    "index": 5,
+                    "title": "Amsel functionalities",
+                    "task": "To use the Amsel function we combine the instance we just created with a function call. How does that work? Let's have a look:",
+                    "multipleChoice": null,
+                    "codeBlock": [
+                        {
+                            "type": "code",
+                            "content": "#First you have to write down the instance of amsel and then the functionality with a parameter. \n#You combine both with a dot. \n#Here an example for the forward function, which makes the Amsel move. "
+                        },
+                        {
+                            "type": "code",
+                            "content": "from"
+                        },
+                        {
+                            "type": "code",
+                            "content": "amsel = Amsel()"
+                        },
+                        {
+                            "type": "code",
+                            "content": "amsel.forward(2)"
+                        }
+                    ],
+                    "feedbackFailed": null,
+                    "feedbackPassed": "See? The instance is connected with the functionality and a certain parameter, which tells the function how much the amsel should move forward. But Amsel can much more besides moving forwars. You will learn and explore more functionalities in the upcoming courses.",
+                    "amselAction": {
+                        "type": "forward",
+                        "parameter": ["2"]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "0dd02fe6-dcc6-4953-8894-524ab02d28ea",
+            "index": 3,
+            "title": "Datatypes I: Strings",
+            "sections":
+            [
+                {
+                    "id": "02921df1-2a54-4b54-9818-3765fe460964",
+                    "index": 1,
+                    "title": "Variables",
+                    "task": "In Python <b>variables</b> are used to <b>store values</b>. Think of a box you can store something in 📦 - that will help you to work with variables.",
+                    "multipleChoice": null,
+                    "codeBlock": [
+                        {
+                            "type": "code",
+                            "content": "#An example for a variable\nplanet = 'Neptune'"
+                        }
+                    ],
+                    "feedbackFailed": null,
+                    "feedbackPassed": "Uh? Notice the first line of code with the # at the beginning? That is a comment. Comments are not read by the program, so you can write whatever you want in them. But usualy they are used to describe what a certain line of code is doing or what has to be done. Commenting helps you and others to understand the code better.",
+                    "amselAction": null
+                },
+                {
+                    "id": "d600aa3b-f0a0-4870-85a1-90517df653c1",
+                    "index": 2,
+                    "title": "The right naming I",
+                    "task": "To create a variable you have to find a <b>unique name</b> for it.<br><br> Remember the box example? We have to label the box to know what is inside. The better the naming, the easier you know what the variable is for and what's inside.<br>But there are rules: Variable names are all lowercase letters. <br> Let’s try it and name the variable <b>constellation</b>.",
+                    "multipleChoice": null,
+                    "codeBlock":
+                    [
+                        {
+                            "type": "gap",
+                            "content": "constellation"
+                        },
+                        {
+                            "type": "code",
+                            "content": " = 'Gemini'"
+                        }
+                    ],
+                    "feedbackFailed": "Something's wrong 🤔 - have another look at the task. You have to fill in the variables name in lowercase letters.",
+                    "feedbackPassed": "Perfect! 🤗 <br><br>Did you notice the single quotes before and after Gemini? That indicates that content of the variable is a string. You will learn to work with them in this chapter.",
+                    "amselAction": null
+                },
+                {
+                    "id": "d796afb8-9f4a-44a4-94af-503391ac3040",
+                    "index": 3,
+                    "title": "The right naming II",
+                    "task": "If you want to use multiple words for a variable name use <b>_</b> to connect them. For example: <b>two_planets</b>.<br>Try it and fill in the variable name <b>two_planets</b> below.",
+                    "multipleChoice": null,
+                    "codeBlock":
+                    [
+                        {
+                            "type": "gap",
+                            "content": "two_planets"
+                        },
+                        {
+                            "type": "code",
+                            "content": " = ['Venus', 'Mars']"
+                        }
+                    ],
+                    "feedbackFailed": "Something's wrong 🤔 - try again please and remeber to use <b>_</b> to connect two words in a variable name.",
+                    "feedbackPassed": "Perfect! 👌 The content of the variable is a list. We will work with them later.",
+                    "amselAction": null
+                },
+                {
+                    "id": "95f47ca2-3bd2-4900-84d4-9d3502775b7d",
+                    "index": 4,
+                    "title": "Values",
+                    "task": "After naming the variable you can <b>store a value</b> in it.<br>Let’s store Mars as a value in our planet variable. To do so, write 'Mars' into the script example.",
+                    "multipleChoice": null,
+                    "codeBlock":
+                    [
+                        {
+                            "type": "code",
+                            "content": "planet = "
+                        },
+                        {
+                            "type": "gap",
+                            "content": "'Mars'"
+                        }
+                    ],
+                    "feedbackFailed": "Something's wrong 🤔 - have another look at the task. Maybe you have forgotten the quotes 'Mars'?",
+                    "feedbackPassed": "Looks good! 🙌  <br><br>Creating a variable is easy, now you know about the naming and the value. Let's have a closer look about different types of values.",
+                    "amselAction": null
+                },
+                {
+                    "id": "b450f487-7797-4f9e-93d9-29432daaaf93",
+                    "index": 5,
+                    "title": "Strings I",
+                    "task": "Do you notice the quotes ' ' for the value of our planet variable? <br><br>A value with quotes is called a <b>string</b>.<br><br> Text content is always of the datatype String.<br>Besides that, numbers and symbols can also be stored as strings. But if this is the case, they are handeled like text content and you can't do math for example.",
+                    "multipleChoice": null,
+                    "codeBlock": null,
+                    "feedbackFailed": null,
+                    "feedbackPassed": null,
+                    "amselAction": null
+                },
+                {
+                    "id": "e1e765b0-572a-48d0-bf8a-4b1a9944492d",
+                    "index": 6,
+                    "title": "Strings II",
+                    "task": "Let’s have a look at some examples for strings. Select all variables which you think are string variables:",
+                    "multipleChoice": [
+                        {
+                            "title": "planet = 'Pluto'",
+                            "solution": true
+                        },
+                        {
+                            "title": "distance = '1234567'",
+                            "solution": true
+                        },
+                        {
+                            "title": "time = 60",
+                            "solution": false
+                        },
+                        {
+                            "title": "password = 'A6gef947-ue32j:)'",
+                            "solution": true
+                        },
+                        {
+                            "title": "state = False",
+                            "solution": false
+                        }
+                    ],
+                    "codeBlock": null,
+                    "feedbackFailed": "Something is not right. Have a closer look 👀 and remember that strings always have quotes at the end and the beginning, no matter what the content is.",
+                    "feedbackPassed": "Exactly! 🙌 <br><br>All the selected variables are strings, which is indicated by the quotes.<br>P.S.: Besides single quotes you can also use double quotes.",
+                    "amselAction": null
+                },
+                {
+                    "id": "9c7aa10a-7914-4fcc-9104-663744864357",
+                    "index": 7,
+                    "title": "Adding strings to a variable",
+                    "task": "Variables have many advantages. If we have to use the same string over and over again in a text, it makes sense to use a variable in the sentence instead of the string itself. To use a variable you can add it with <b>+</b> to a sentence: ",
+                    "multipleChoice": null,
+                    "codeBlock": [
+                        {
+                            "type": "code",
+                            "content": "planet = 'Jupyter' \n \nprint('The planet ' +\n       planet +  'is far away!')"
+                        },
+                        {
+                            "type": "output",
+                            "content": "The planet Jupyter is far away!"
+                        }
+                    ],
+                    "feedbackFailed": null,
+                    "feedbackPassed": "If the value of your variable changes now, we don’t have to go to every word and correct it manually, as it is automatically changed through the variables value.",
+                    "amselAction": null
+                },
+                {
+                    "id": "44334577-b580-4eb6-bfae-10b95ab41ed7",
+                    "index": 8,
+                    "title": "Amsel 🐦",
+                    "task": "Try to display the string 'Hi Amsel!' on the Amsel robot by filling in the gaps.",
+                    "multipleChoice": null,
+                    "codeBlock": [
+                        {
+                            "type": "code",
+                            "content": "from amselpy import Amsel\namsel = Amsel()\namsel.print("
+                        },
+                        {
+                            "type": "gap",
+                            "content": "'Hi Amsel!'"
+                        },
+                        {
+                            "type": "code",
+                            "content": ")"
+                        }
+                    ],
+                    "feedbackFailed": "No interaction with Amsel? Try again and check your answers. Maybe you have forgotten the quotes?",
+                    "feedbackPassed": "Can you see the String on the Amsel robot? Perfect! You did it!",
+                    "amselAction": {
+                        "type": "print",
+                        "parameter": ["Hi Amsel!"]
+                    }
+                },
+                {
+                    "id": "98869ddb-cb37-4a34-8637-42cdeb475198",
+                    "index": 9,
+                    "title": "Recap",
+                    "task": "Variables store values, like strings.<br><br> A variable of the type string consists of a variable and value <b>planet = 'Mars'</b> and can contain characters of nearly any kind. <br><br>But besides strings there are many more datatypes for variables, like numbers.",
+                    "multipleChoice": null,
+                    "codeBlock": null,
+                    "feedbackFailed": null,
+                    "feedbackPassed": null,
+                    "amselAction": null
+                }
+            ]
+        },
+        {
+            "id": "bbee4dd1-1506-4e67-85ed-830098f54a34",
+            "index": 4,
+            "title": "Datatypes II: Numbers",
+            "sections":
+            [
+                {
+                    "id": "25f189a8-b26b-447f-9627-444c83ee3145",
+                    "index": 1,
+                    "title": "Numbers",
+                    "task": "We’ve already learned that strings can contain numbers. But there is one problem with that. The numbers in strings are handled like text not like numbers.<br><br> We can try to add two strings with numbers to see what is happening:",
+                    "multipleChoice": null,
+                    "codeBlock":
+                    [
+                        {
+                            "type": "code",
+                            "content": "first_number = '1'\nsecond_number = '2'\nprint(first_number + second_number)"
+                        },
+                        {
+                            "type": "output",
+                            "content": "12"
+                        }
+                    ],
+                    "feedbackFailed": null,
+                    "feedbackPassed": "Uh? Not the result we want to have right? So if we want to work with numbers we have to use Integers and Floats. Let's learn what they are.",
+                    "amselAction": null
+                },
+                {
+                    "id": "2f27aeaa-ab95-44c8-be35-27340e79e298",
+                    "index": 2,
+                    "title": "Integers",
+                    "task": "Integers are numbers <b>without</b> a decimal place.<br> Can you already tell which of these examples are integers?",
+                    "multipleChoice":
+                    [
+                        {
+                            "title": "number = '1'",
+                            "solution": false
+                        },
+                        {
+                            "title": "number = 45",
+                            "solution": true
+                        },
+                        {
+                            "title": "number = 675420",
+                            "solution": true
+                        },
+                        {
+                            "title": "number = 3.1415",
+                            "solution": false
+                        },
+                        {
+                            "title": "number = 0",
+                            "solution": true
+                        }
+                    ],
+                    "codeBlock": null,
+                    "feedbackFailed": "Not really. Have a closer look and remember that integers are numbers <b>without</b> a decimal place and are written <b>without</b> quotes.",
+                    "feedbackPassed": "You are right. All the selected variables are integers. <b>'1'</b> is a string, indicated by the quotes, and <b>3.1415</b> is a float as it has a decimal place.",
+                    "amselAction": null
+                },
+                {
+                    "id": "2eecf798-cc4d-4f5e-acee-4ccf776cb343",
+                    "index": 3,
+                    "title": "Float",
+                    "task": "If the number has a decimal place, like 3.1415, it is called a float. If you work with floats it is important that you use a decimal point <b>.</b> instead of a comma <b>,</b>. The most famous float is Pi. ",
+                    "multipleChoice": null,
+                    "codeBlock":  [
+                                           {
+                                               "type": "code",
+                                               "content": "pi = 3.1415 \nprint(pi)"
+                                           },
+                                           {
+                                               "type": "output",
+                                               "content": "3.1415"
+                                           }
+                                       ],
+                    "feedbackFailed": null,
+                    "feedbackPassed": "Talking about Pi - now we know about numbers, we can do math them",
+                    "amselAction": null
+                },
+                {
+                    "id": "057b1cb0-0b87-43f7-b762-4e94da6e637a",
+                    "index": 4,
+                    "title": "Adding Numbers",
+                    "task": "To add two numbers you can simple add them with a <b>+</b>",
+                    "multipleChoice": null,
+                    "codeBlock": [{
+                            "type": "code",
+                            "content": "price_lunch = 8.99 \nprice_soda = 1.99"
+                        },
+                        {
+                            "type": "code",
+                            "content": "total_price = price_lunch "
+                        },
+                        {
+                            "type": "gap",
+                            "content": "+"
+                        },
+                        {
+                            "type": "code",
+                            "content": " price_soda\nprint(total_price)"
+                        },
+                        {
+                            "type": "output",
+                            "content": "27.98"
+                        }
+                    ],
+                    "feedbackFailed": "We want to <b>add</b> two numbers. Try it again by connecting them with a <b>+</b>",
+                    "feedbackPassed": "Yes - super easy right?",
+                    "amselAction": null
+                },
+                {
+                    "id": "4480fa70-b608-40fc-ad0c-0231eb4ca648",
+                    "index": 5,
+                    "title": "Substract Numbers",
+                    "task": "To substract numbers we use a simple <b>-</b>",
+                    "multipleChoice": null,
+                    "codeBlock": [{
+                            "type": "code",
+                            "content": "price = 29.99 \ngift_card = 20\ntotal_price = price "
+                        },
+                        {
+                            "type": "gap",
+                            "content": "-"
+                        },
+                        {
+                            "type": "code",
+                            "content": " gift_card\nprint(total_price)"
+                        },
+                        {
+                            "type": "output",
+                            "content": "9.99"
+                        }
+                    ],
+                    "feedbackFailed": "We want to <b>substract</b> two numbers. Try it again by connecting them with a <b>-</b> like in math.",
+                    "feedbackPassed": "Ah perfectly done. Multiplication is next!",
+                    "amselAction": null
+                },
+                {
+                    "id": "aefdd1a1-d660-4570-abfd-24bda87b3dd4",
+                    "index": 6,
+                    "title": "Multiply Numbers",
+                    "task": "With <b>*</b> we can multiply two numbers.",
+                    "multipleChoice": null,
+                    "codeBlock": [
+                        {
+                            "type": "code",
+                            "content": "number = 14 \n \nprint(number*6)"
+                        },
+                        {
+                            "type": "output",
+                            "content": "84"
+                        }
+                    ],
+                    "feedbackFailed": null,
+                    "feedbackPassed": "See how it is like normal math? Nothing completely new ☺️",
+                    "amselAction": null
+                },
+                {
+                    "id": "966d2b40-cfe1-4a89-a562-049652b6de86",
+                    "index": 7,
+                    "title": "Devide Numbers",
+                    "task": "To devide numbers we use the <b>/</b> operator.",
+                    "multipleChoice": null,
+                    "codeBlock": [
+                        {
+                            "type": "code",
+                            "content": "number = 14 \n \nprint(number/3)"
+                        },
+                        {
+                            "type": "output",
+                            "content": "4.6"
+                        }
+                    ],
+                    "feedbackFailed": null,
+                    "feedbackPassed": "And even the last one is super easy. See how you devide two integers and get a float?",
+                    "amselAction": null
+                },
+                {
+                    "id": "56a0a81f-1b5a-4599-9eed-95d41784f080",
+                    "index": 8,
+                    "title": "Amsel 🐦",
+                    "task": "Okay. We've done great this chapter. Let's see if we learned enough to recap and display something on Amsel. <br><br>Try to display the solution of the multiplication of the two variables on the Amsel robot by filling in the gap.",
+                    "multipleChoice": null,
+                    "codeBlock": [
+                        {
+                            "type": "code",
+                            "content": "from amselpy import Amsel\namsel = Amsel()\nnum1 = 8\nnum2 = 3.14\nsolution ="
+                        },
+                        {
+                            "type": "gap",
+                            "content": "num1*num2"
+                        },
+                        {
+                            "type": "code",
+                            "content": "amsel.print(solution)"
+                        }
+                    ],
+                    "feedbackFailed": "No interaction with Amsel? Try again and check your answers. You have to write in the variable names and connect them with <b>*</b> for multiplication.",
+                    "feedbackPassed": "Can you see the solution on the Amsel robot? Perfect! You did it!",
+                    "amselAction": {
+                        "type": "print",
+                        "parameter": ["25.12"]
+                    }
+                },
+                {
+                    "id": "b39bfd25-a5b7-4b6d-82d0-173695bf9a5c",
+                    "index": 9,
+                    "title": "Recap",
+                    "task": "Numbers can either be integers (numbers without a decimal place) or floats (with a decimal place). To calculate with them we use the common poperators <b>+ - * / </b>",
+                    "multipleChoice": null,
+                    "codeBlock": null,
+                    "feedbackFailed": null,
+                    "feedbackPassed": "Wow! You've completed the numbers chapter. Next one are Booleans!",
+                    "amselAction": null
+                }
+            ]
+        },
+        {
+            "id": "6f7051e1-4ac9-4107-95a8-535d9d187836",
+            "index": 5,
+            "title": "Datatypes III: Boolean",
+            "sections":
+            [
+                {
+                    "id": "a0839abe-2004-497e-8654-17c44c1f262e",
+                    "index": 1,
+                    "title": "True or False",
+                    "task": "The topic of this chapter are booleans - another datatype. Variables which are booleans can only store two values: True and False.",
+                    "multipleChoice": null,
+                    "codeBlock": [
+                        {
+                            "type": "code",
+                            "content": "password = True"
+                        }],
+                    "feedbackFailed": null,
+                    "feedbackPassed": "True and False are always begin with uppercased letters.",
+                    "amselAction": null
+                },
+                {
+                    "id": "bebe0b5d-cde5-4ff3-a3af-8950f3d64f52",
+                    "index": 2,
+                    "title": "Comparisons I",
+                    "task": "Booleans are used for comparisons. We can compare variables and values.<br> We check if two strings are <b>equal</b> with using <b>==</b>",
+                    "multipleChoice": null,
+                    "codeBlock": [
+                        {
+                            "type": "code",
+                            "content": "print('Mars' == 'Earth')"
+                        },
+                            {
+                                "type": "output",
+                                "content": "False"
+                            }
+                        ],
+                    "feedbackFailed": null,
+                    "feedbackPassed": "Mars and Earth are of course not the same, so the outcome is False instead of True.",
+                    "amselAction": null
+                },
+                {
+                    "id": "a765abd8-2ebb-42d1-af27-57b5c7f97612",
+                    "index": 3,
+                    "title": "Comparisons II",
+                    "task": "To see whether two variables or values are <b>not equal</b> use <b>!=</b>",
+                    "multipleChoice": null,
+                    "codeBlock": [
+                        {
+                            "type": "code",
+                            "content": "print(50"
+                        },
+                        {
+                            "type": "gap",
+                            "content": "!="
+                        },
+                        {
+                            "type": "code",
+                            "content": " 7*4)"
+                        },
+                        {
+                            "type": "output",
+                            "content": "True"
+                        }
+                    ],
+                    "feedbackFailed": "Not really. Fill in the gap with the right operator <b>!=</b> to check if two variables are <b>not</b> equal.",
+                    "feedbackPassed": "You did perfect! 🦾",
+                    "amselAction": null
+                },
+                {
+                    "id": "d27f7da6-e2b1-44de-8c74-4733b9a68417",
+                    "index": 4,
+                    "title": "Comparisons III",
+                    "task": "But we can also check in which way a value or variable differs. To do so we use either <b><</b> or <b>></b>.",
+                    "multipleChoice": null,
+                    "codeBlock": [
+                        {
+                            "type": "code",
+                            "content": "price1 = 10.99\nprice2= 16.99\nprint(price1 > price2)"
+                        },
+                        {
+                            "type": "output",
+                            "content": "False"
+                        }
+                    ],
+                    "feedbackFailed": null,
+                    "feedbackPassed": "Easy right?",
+                    "amselAction": null
+                },
+                {
+                    "id": "2966745a-ea6a-4fb4-b082-b149bb9c108c",
+                    "index": 5,
+                    "title": "Comparisons IV",
+                    "task": "Can you select all variables which are True?",
+                    "multipleChoice": [
+                        {
+                            "title": "print(45 == 21)",
+                            "solution": false
+                        },
+                        {
+                            "title": "print('Harry' != 'William')",
+                            "solution": true
+                        },
+                        {
+                            "title": "print(543 > 542.9)",
+                            "solution": true
+                        },
+                        {
+                            "title": "print(12 >= 12)",
+                            "solution": true
+                        },
+                        {
+                            "title": "print(True == False)",
+                            "solution": false
+                        },
+                        {
+                            "title": "print('41' == 41)",
+                            "solution": false
+                        }
+                    ],
+                    "codeBlock": null,
+                    "feedbackFailed": "Oh oh - there is a mistake somewhere! The outcome shall be True. If you are unsure about the right operators go back to the lessons again. ☺️",
+                    "feedbackPassed": "Yes! Well done!",
+                    "amselAction": null
+                },
+                {
+                    "id": "47302cde-e8b4-44c5-a7e9-fc576a9d2ba9",
+                    "index": 6,
+                    "title": "Amsel 🐦",
+                    "task": "Check if two numbers are <b>equal</b> by printing the Boolean on the Amsel.",
+                    "multipleChoice": null,
+                    "codeBlock": [
+                        {
+                            "type": "code",
+                            "content": "from amselpy import Amsel\namsel = Amsel()\nnum1 = 8\nnum2 = 2*3.14\nsolution = num1"
+                        },
+                        {
+                            "type": "gap",
+                            "content": "=="
+                        },
+                        {
+                            "type": "code",
+                            "content": "num2"
+                        },
+                        {
+                            "type": "code",
+                            "content": "amsel.print(solution)"
+                        }
+                    ],
+                    "feedbackFailed": "No interaction with Amsel? Try again and check your answers. We check if two variables are <b>equal</b> with <b>==</b>",
+                    "feedbackPassed": "Can you see the solution on the Amsel robot? Perfect! You did it!",
+                    "amselAction": {
+                        "type": "print",
+                        "parameter": ["False"]
+                    }
+                },
+                {
+                    "id": "a765abd8-2ebb-42d1-af27-57b5c7f97612",
+                    "index": 7,
+                    "title": "Recap",
+                    "task": "Booleans are important, as they are used for conditional statements, loops and many more functions. Variables of the type Bool can either be True or False. They allow us to compare variables and values. Here is a short overview of all conditional tests which we can use to compare:<br><br>",
+                    "multipleChoice": null,
+                    "codeBlock": [{"type": "code",
+                        "content": "#equal  x == 51\n#not equal"},
+                    {
+                    "type": "code",
+                    "content": "  x != 51\n#greater than"},
+                    {
+                    "type": "code",
+                    "content": "  x > 51\n#greather than or equal:"},
+                    {
+                    "type": "code",
+                    "content": "  x >= 51\n#less than"},
+                    {
+                    "type": "code",
+                    "content": "  x < 51\n#less than or equal"},
+                    {
+                    "type": "code",
+                    "content": "  x <= 51"}
+                    ],
+                    "feedbackFailed": null,
+                    "feedbackPassed": "Congratulations! You've completed another cheapter. Let's head on to the next one: Lists.",
+                    "amselAction": null
+                }
+            ]
+        },
+        {
+            "id": "93612796-ffc9-47ef-8ff2-355794971e05",
+            "index": 6,
+            "title": "Lists",
+            "sections":
+            [
+                {
+                    "id": "218da1ba-cf73-4aab-a118-38ba3cd5b011",
+                    "index": 1,
+                    "title": "Lists",
+                    "task": "Lists can store more than just one item in a particular order. A list begin and end with square brackets <b>[ ]</b><br>Let's complete the list here:",
+                    "multipleChoice": null,
+                    "codeBlock": [
+                    {
+                        "type": "code",
+                        "content": "#Make a List\nastronaut="
+                    },
+                    {
+                        "type": "gap",
+                        "content": "["
+                    },
+                    {
+                        "type": "code",
+                        "content": "'Linea', 'Mars'"
+                    },
+                    {
+                        "type": "gap",
+                        "content": "]"
+                    }],
+                    "feedbackFailed": "Uh there is a mistake. Please check again. You have to fill in the right kind of <b>brackets</b>.",
+                    "feedbackPassed": "Yes perfect! 🙏🏻",
+                    "amselAction": null
+                },
+                {
+                    "id": "346325b1-d91f-46c3-b64e-5d1c6dd03bf4",
+                    "index": 2,
+                    "title": "Datatypes",
+                    "task": "Lists can not only store one, but multiple datatypes.",
+                    "multipleChoice": null,
+                    "codeBlock": [{
+                        "type": "code",
+                        "content": "list = ['Linea', 24, 'Mars']"
+                    }],
+                    "feedbackFailed": null,
+                    "feedbackPassed": "Have you recognized that the values are seperated with commas?",
+                    "amselAction": null
+                },
+                {
+                    "id": "8712991f-d108-486a-8bf2-49a1bf324d56",
+                    "index": 3,
+                    "title": "Index I",
+                    "task": "To access the values in a list, we need to use the index.<br>The index is the position of the item in the list - starting from zero: The first position is indexed 0, the second one is 1, the third is 2 and so on.<br>To get the first item in a list, we have to do the following:",
+                    "multipleChoice": null,
+                    "codeBlock": [{
+                        "type": "code",
+                        "content": "profile = ['Linea', 24, 'Mars']\n#Get the first item\nprint(profile[0])"
+                    },{
+                    "type": "output",
+                    "content": "Linea"}],
+                    "feedbackFailed": null,
+                    "feedbackPassed": null,
+                    "amselAction": null
+                },
+                {
+                    "id": "acee81ee-7828-496b-a0a1-7d70d62ed740",
+                    "index": 4,
+                    "title": "Index II",
+                    "task": "If we don't know the length of a list but want to have the last item we can use [-1].<br><br>Try it out!",
+                    "multipleChoice": null,
+                    "codeBlock":
+                    [{
+                        "type": "code",
+                        "content": "profile = ['Linea', 24, 'Mars']\nprint(profile"
+                    },
+                    {
+                        "type": "gap",
+                        "content": "[-1]"
+                    },
+                    {
+                        "type": "code",
+                        "content": ")"
+                    },
+                    {
+                        "type": "output",
+                        "content": "Mars"
+                    }],
+                    "feedbackFailed": "Something went wrong! 🧐 Remember that we access the last item with <b>[-1]</b>!",
+                    "feedbackPassed": "Well done! 👌",
+                    "amselAction": null
+                },
+                {
+                    "id": "86cc75a7-fd1f-450f-85b1-49c1f5344b43",
+                    "index": 5,
+                    "title": "Length",
+                    "task": "But of course we can get the length of a list too. <b>len()</b> allows us to see how many items are in a list:",
+                    "multipleChoice": null,
+                    "codeBlock": [{
+                        "type": "code",
+                        "content": "list = ['Linea', 24, 'Mars']\nprint(len(list))"
+                    },
+                    {
+                        "type": "output",
+                        "content": "3"
+                    }],
+                    "feedbackFailed": null,
+                    "feedbackPassed": null,
+                    "amselAction": null
+                },
+                {
+                    "id": "6640cbb3-fc68-4a8c-b992-12e99123bccc",
+                    "index": 6,
+                    "title": "More Items",
+                    "task": "We can modify lists by appending, inserting, removing and slicing lists.<br><br>We start with appending the item Amsel to our list with <b>list.append('Amsel')</b>. Fill in the gap:",
+                    "multipleChoice": null,
+                    "codeBlock": [{
+                        "type": "code",
+                        "content": "profile = ['Linea', 24, 'Mars']\nprofile"
+                    },
+                    {
+                        "type": "gap",
+                        "content": ".append('Amsel')"
+                    },
+                    {
+                        "type": "code",
+                        "content": "print(profile)"
+                    },
+                    {
+                        "type": "output",
+                        "content": "['Linea', 24, 'Mars', 'Amsel']"
+                    }],
+                    "feedbackFailed": "Sorry, but that is wrong. Have a closer look at the task. We have to fill in <b>.append('Amsel')</b> to append the Amsel to the list.",
+                    "feedbackPassed": "Perfect! We can also adding values by insert them at a certain position of a list.",
+                    "amselAction": null
+                },
+                {
+                    "id": "cb75758c-98b0-4357-8544-3242c480472b",
+                    "index": 7,
+                    "title": "Insert",
+                    "task": "To insert an item at a certain point in a list we use <b>list.insert(position, 'value')</b>.",
+                        "multipleChoice": null,
+                        "codeBlock": [{
+                            "type": "code",
+                            "content": "profile = ['Linea', 24, 'Mars']\nprofile.insert(2, 1.65)"
+                        },
+                        {
+                            "type": "output",
+                            "content": "['Linea', 24, 1.65, 'Mars']"
+                        }],
+                        "feedbackFailed": null,
+                        "feedbackPassed": "As easy as that.",
+                        "amselAction": null
+                    },
+                {
+                    "id": "45dc06f4-a39c-4136-bae3-dae75191ff4e",
+                    "index": 8,
+                    "title": "Removing",
+                    "task": "To remove an item from a list we use list.remove().",
+                    "multipleChoice": null,
+                    "codeBlock": [{
+                        "type": "code",
+                        "content": "profile = ['Linea', 24, 'Mars', 'Amsel']\nprofile.remove(24)"
+                    },
+                    {
+                        "type": "output",
+                        "content": "['Linea', 'Mars', 'Amsel']"
+                    }],
+                    "feedbackFailed": null,
+                    "feedbackPassed": null,
+                    "amselAction": null
+                },
+                {
+                    "id": "18f62202-c5ee-4c47-8fd5-cba11fbc06f8",
+                    "index": 9,
+                    "title": "Slicing",
+                    "task": "The last modification is slicing a list into two lists. list[:2] will get you all items before the second index and list[2:] will get all items after the second item. Here is an example  to clearify:",
+                    "multipleChoice": null,
+                    "codeBlock": [{
+                        "type": "code",
+                        "content": "profile=['Linea', 24, 'Earth', 'Mars']\nplanet = profile[2:]"
+                    },
+                    {
+                        "type": "output",
+                        "content": "profile=['Linea', 24, 'Earth', 'Mars']\nplanet = ['Earth', 'Mars']"
+                    },
+                    {"type": "code",
+                        "content": "profile=['Linea', 24, 'Earth', 'Mars']\nperson = profile[:2]"
+                    },
+                    {
+                        "type": "output",
+                        "content": "profile=['Linea', 24, 'Earth', 'Mars']\nperson = ['Linea', 24]"
+                    }],
+                    "feedbackFailed": null,
+                    "feedbackPassed": null,
+                    "amselAction": null
+                },
+                {
+                    "id": "ceed11f5-da6d-4e3b-b7e3-2236866d9c3a",
+                    "index": 10,
+                    "title": "Tuple",
+                    "task": "Tuples are similar to lists, with the difference that their values can't be modifyed. This can be a hughe beneift if we don't want to risk to change the values by accident. Escpecially when the value itself will always be the same.<br>Instead of square brackets Tupels use round ones",
+                    "multipleChoice": null,
+                    "codeBlock": [{
+                        "type": "code",
+                        "content": "space = ('Mars', '687 days')"
+                    }],
+                    "feedbackFailed": null,
+                    "feedbackPassed": null,
+                    "amselAction": null
+                },
+                {
+                    "id": "aa0cf6d1-c607-4982-9445-26f7b92c9980",
+                    "index": 11,
+                    "title": "List & Tuple",
+                    "task": "Of course we can convert Lists into Tuples and vice versa.<br>br>To change tuples into lists we use the list() function. To change lists into tuples we use the tuple() function: ",
+                    "multipleChoice": null,
+                    "codeBlock": [{
+                        "type": "code",
+                        "content": "#Converting a tuple into a list\nspace = ('Mars', '687 days')"
+                        },
+                        {
+                        "type": "code",
+                        "content": "space_list = list(space)"
+                        },
+                        {
+                        "type": "code",
+                        "content": "print(space_list)"
+                        },
+                        {
+                        "type": "output",
+                        "content": "['Mars', '687 days']"
+                        },
+                        {
+                        "type": "code",
+                        "content": "#Now a list into a tuple\nastronauts = ['Gerst', 'Collins']"
+                        },
+                        {
+                        "type": "code",
+                        "content": "astronauts_tuple = tuple(astronauts)"
+                        },
+                        {
+                        "type": "code",
+                        "content": "print(astronauts_tuple)"
+                        },
+                        {"type": "output",
+                        "content": "('Gerst', 'Collins')"}],
+                    "feedbackFailed": null,
+                    "feedbackPassed": "Perfect! With that you know nearly everything about lists and tuples.",
+                    "amselAction": null
+                },
+                {
+                    "id": "47302cde-e8b4-44c5-a7e9-fc576a9d2ba9",
+                    "index": 12,
+                    "title": "Amsel 🐦",
+                    "task": "Can you remember how to display the last two items of a list? Try it with this example and display  on the Amsel Robot.<br><br>",
+                    "multipleChoice": null,
+                    "codeBlock": [
+                        {
+                            "type": "code",
+                            "content": "from amselpy import Amsel\namsel = Amsel()\nplanets = ['Mercury, 'Venus', 'Earth','Mars']\ntwo_planets="
+                        },
+                        {
+                            "type": "gap",
+                            "content": "planets[2:]"
+                        },
+                        {
+                            "type": "code",
+                            "content": "amsel.print(two_planets)"
+                        }
+                    ],
+                    "feedbackFailed": "No interaction with Amsel? Try again and check your answers. We get the <b>last</b> two planets with using the name of the list and number from which the new list shall start followed by :",
+                    "feedbackPassed": "Can you see the solution on the Amsel robot? Perfect! You did it!",
+                    "amselAction": {
+                        "type": "print",
+                        "parameter": ["['Earth', 'Mars']"]
+                    }
+                },
+                {
+                    "id": "ab2cd25f-77e7-4225-b945-913dd574ca2d",
+                    "index": 13,
+                    "title": "Recap",
+                    "task": "Lists can store multiple items with different datatypes at once. Lists can be accessed and modifyed by their index.",
+                    "multipleChoice": null,
+                    "codeBlock": null,
+                    "feedbackFailed": null,
+                    "feedbackPassed": "You've completed another chapter! Well done! 🎉🎊",
+                    "amselAction": null
+                }
+            ]
+        },
+        {
+            "id": "44b82714-9f09-4e3f-a5b6-7fbf1d43e306",
+            "index": 8,
+            "title": "Conditional Statements",
+            "sections":
+            [
+                {
+                    "id": "46c12246-3780-47ea-9c81-1d360ad3b198",
+                    "index": 1,
+                    "title": "Remeber the Booleans?",
+                    "task": "Do you remember the Booleans we've learned about some chapters ago? <br><br>Booleans are datatypes with only two possible values: True and False. With booleans and conditional tests we can compare variables and values. Here is a short recap of all conditional tests we've already learned:",
+                    "multipleChoice": null,
+                   "codeBlock": [{"type": "code",
+                        "content": "#equal  x == 51\n#not equal"},
+                    {
+                    "type": "code",
+                    "content": "  x != 51\n#greater than"},
+                    {
+                    "type": "code",
+                    "content": "  x > 51\n#greather than or equal:"},
+                    {
+                    "type": "code",
+                    "content": "  x >= 51\n#less than"},
+                    {
+                    "type": "code",
+                    "content": "  x < 51\n#less than or equal"},
+                    {
+                    "type": "code",
+                    "content": "  x <= 51"}
+                    ],
+                    "feedbackFailed": null,
+                    "feedbackPassed": "So what shall we do, if we want to run a certain function only when a condition is True?",
+                    "amselAction": null
+                        },
+                    {
+                    "id": "2248e819-f084-4134-8642-00bbb64d1479",
+                    "index": 2,
+                    "title": "If...",
+                    "task": "When we want to have the option to run or skip code based on a condition, we use conditional statements. <b>If<b> the boolean is <b>True</b> then a certain line of code is executed.>",
+                    "multipleChoice": null,
+                    "codeBlock": [{
+                        "type": "code",
+                        "content": "if true {\n   print('That is True!')\n}"},
+                        {
+                        "type": "output",
+                        "content": "That is True!"}],
+                    "feedbackFailed": null,
+                    "feedbackPassed": "Yes! That <b>if-statement</b> is True! 🦾",
+                    "amselAction": null
+                },
+                {
+                    "id": "65414316-c19c-49b3-a98c-1a8184850e8c",
+                    "index": 3,
+                    "title": "If...",
+                    "task": "Okay, now try it yourself and complete the gap so the output displays: 'True story!'",
+                    "multipleChoice": null,
+                    "codeBlock": [{
+                        "type": "code",
+                        "content": "if "},
+                        {
+                        "type": "gap",
+                        "content": "True:"},
+                        {
+                        "type": "code",
+                        "content": "print('True story!')"
+                        },
+                        {
+                        "type": "output",
+                        "content": "print('True story!')"}],
+                    "feedbackFailed": "There is a mistake. Please try again. We've want to display the text only if the condition is <b>True:</b> .",
+                    "feedbackPassed": "Yay! Looks good! 💃",
+                    "amselAction": null
+                },
+                {
+                    "id": "747df937-793a-4164-90e2-d2046a59ca65",
+                    "index": 4,
+                    "title": "Compare it",
+                    "task": "A conditional is mostely used to run or skip code after checking wether a comparison is fullfilled or not. In this case we want to check if the password is <b>equal</b> to the saved password.",
+                    "multipleChoice": null,
+                    "codeBlock": [{
+                        "type": "code",
+                        "content": "pw = 'jupyter123'\nif pw == 'jupyter123':\n   print('Hello Jupyter')"},
+                        {
+                        "type": "output",
+                        "content": "Hello Jupyter"}],
+                    "feedbackFailed": null,
+                    "feedbackPassed": "But what if the password wasn't right and the comparison returns False?",
+                    "amselAction": null
+                },
+                {
+                    "id": "8a4b9f3a-cc6b-4b63-9686-7544cc73aa9c",
+                    "index": 5,
+                    "title": "Else",
+                    "task": "Of course conditional tests can not be True all the time. With <b>else</b> we can run an alternative line of code.",
+                    "multipleChoice": null,
+                    "codeBlock": [{
+                        "type": "code",
+                        "content": "distance = 62356\nif distance < 5000:\n   print('Can be reached! 🚀')\nelse:\n   print('Too far away 🪐')"},
+                            {
+                        "type": "output",
+                        "content": "Too far away 🪐"}],
+                    "feedbackFailed": null,
+                    "feedbackPassed": "As the distance value doesn't meet the first requirement the else statement was executed.",
+                    "amselAction": null
+                },
+                {
+                    "id": "47834f91-dc16-438e-a9e6-1418f832fe3e",
+                    "index": 6,
+                    "title": "Elif",
+                    "task": "Else always needs to be the last part of your conditional statement. But what if you want to check for more then one condition? In that case we use <b>elif</b>. We can add as many elif statements as we want. Try it yourself:",
+                    "multipleChoice": null,
+                    "codeBlock": [{
+                        "type": "code",
+                        "content": "age = 18"},
+                        {
+                        "type": "code",
+                        "content": "if age < 12:\n   price = 0\n   print('The price is: ' + price + ' €.')"},
+                        {
+                        "type": "gap",
+                        "content": "elif"},
+                        {
+                        "type": "code",
+                        "content": "age <= 18: \n   price = 10000\n   print('The price is: ' + price + ' €.')"},
+                        {
+                        "type": "code",
+                        "content": "else:\n   price = 50000\n   print('The price is: ' + price + ' €.')"},
+                            {
+                        "type": "output",
+                        "content": "The price is: 10000 €."}],
+                    "feedbackFailed": "We have to fill in <b>elif</b> to complete the conditional statement.",
+                    "feedbackPassed": "Perfect!",
+                    "amselAction": null
+                },
+                {
+                    "id": "b8b2cc2e-8172-47b6-a636-31e56d61f5a5",
+                    "index": 7,
+                    "title": "Lists",
+                    "task": "We've already learned about lists and how they work. With conditional statements we can check wether a value is <b>in</b> or <b>not in</b> a list. Let's see whether Pluto and Jupyter are in the planet list.",
+                    "multipleChoice": null,
+                    "codeBlock": [{
+                        "type": "code",
+                        "content": "planets = [Mercury, Mars, Neptune, Earth]"},
+                        {"type": "code",
+                        "content": "#Check if Mars is in the planet list:\nif 'Mars' in planets:"},
+                        {"type": "code",
+                        "content": "   print('Mars is in!')"},
+                        {"type": "output",
+                        "content": "Mars is in!"},
+                        {"type": "code",
+                        "content": "#Check if Jupyter is not in the list:\nif 'Jupyter' not in planets: "},
+                        {"type": "code",
+                        "content": "   print('Jupyter is out!')"},
+                        {"type": "output",
+                        "content": "Jupyter is out!"}],
+                    "feedbackFailed": null,
+                    "feedbackPassed": "Simple like that 🪐.",
+                    "amselAction": null
+                },
+                {
+                    "id": "eadf0487-4e7d-491e-b1c5-6a422fb09a40",
+                    "index": 8,
+                    "title": "Amsel 🐦",
+                    "task": "Let Amsel drive. If there is a barrier, Amsel should stop. Else Amsel should move forward.",
+                    "codeBlock": [
+                        {
+                            "type": "code",
+                            "content": "from amselpy import Amsel\namsel = Amsel()"
+                        },
+                        {
+                            "type": "gap",
+                            "content": "if"
+                        },
+                        {
+                            "type": "code",
+                            "content": " amsel.distance <= 20:\namsel.stop()\nelse: amsel.forward()"
+                        }
+                    ],
+                    "feedbackFailed": "No interaction with Amsel? Try again and check your answer again. We have to fill in <b>if</b> to complete the conditional statement.",
+                    "feedbackPassed": "Can you see the solution on the Amsel robot? Perfect! You did it!",
+                    "amselAction": {
+                        "type": "forwardTillBarrier",
+                        "parameter": []
+                    }
+                }
+            ]
+        },
+        {
+            "id": "f0fed5fd-589d-418c-9ffa-f7ebe3c72fc6",
+            "index": 9,
+            "title": "Dictionaries",
+            "sections":
+            [
+                {
+                    "id": "3c4272da-e961-4622-b784-57d60fd9f375",
+                    "index": 1,
+                    "title": "Dictionaries",
+                    "task": "Dictionaries are similar to lists and tuples. With one difference: They not only store the value but also a corresponding key. This way the dictionary stores the connection between the both of them. An item in a dictionary is called a <b>key-value pair</b>.",
+                    "multipleChoice": null,
+                    "codeBlock": [{
+                        "type": "code",
+                        "content": "planets = {'Mercury': 'Merkur',\n    'Venus': 'Venus',\n    'Earth': 'Erde',\n    'Mars': 'Mars'}"
+                    }],
+                    "feedbackFailed": null,
+                    "feedbackPassed": "A dictionary starts and ends with braces and contains <b>key: value</b> pairs.",
+                    "amselAction": null
+                },
+                {
+                    "id": "45638e7b-a21a-4301-b97b-67eafbe0f94b",
+                    "index": 2,
+                    "title": "Keys & Values",
+                    "task": "The keys and values of a dictionary could be of any type.",
+                    "multipleChoice": null,
+                    "codeBlock": [{
+                        "type": "code",
+                        "content": "planets = {1: 'Merkur',\n     'Venus': 2,\n     'Earth': True}"
+                    }],
+                    "feedbackFailed": null,
+                    "feedbackPassed": "Simple as that ☺️. Let's see how we can work with dictionaries.",
+                    "amselAction": null
+                },
+                {
+                    "id": "97e52f3a-1c82-4ea4-ad5a-276127648ea1",
+                    "index": 3,
+                    "title": "Accessing a Value",
+                    "task": "Dictionaries are unordered. To access a value in a dictionary we need the corresponding key instead of the index. Here is the right syntax:",
+                    "multipleChoice": null,
+                    "codeBlock": [{
+                        "type": "code",
+                        "content": "planets = {'Mercury': 'Merkur',\n    'Venus': 'Venus',\n    'Earth': 'Erde',\n    'Mars': 'Mars'}\nprint(planets['Mercury'])"
+                    },
+                    {
+                        "type": "output",
+                        "content": "Merkur"
+                    }],
+                    "feedbackFailed": null,
+                    "feedbackPassed": "But what, if we don't know which keys are in a dictionary?",
+                    "amselAction": null
+                },
+                {
+                    "id": "ac7377af-46b7-4fd7-b046-a7ea9d6a0554",
+                    "index": 4,
+                    "title": "Keys",
+                    "task": "To get all keys of a dictionary in a list, we can use the <b>.keys()</b> method.",
+                    "multipleChoice": null,
+                    "codeBlock": [{
+                            "type": "code",
+                            "content": "planets = {'Mercury': 'Merkur',\n    'Venus': 'Venus',\n    'Earth': 'Erde',\n    'Mars': 'Mars'}\nprint(planets.keys())"
+                        },
+                        {
+                            "type": "output",
+                            "content": "dict_keys(['Mercury', 'Venus',\n           'Earth', 'Mars'])"
+                        }],
+                    "feedbackFailed": null,
+                    "feedbackPassed": "A nice functionality right? But what if we want to modify the dictionary?",
+                    "amselAction": null
+                },
+                {
+                    "id": "9cbd6aa4-0462-4f72-86f9-fcfb24c9b34a",
+                    "index": 5,
+                    "title": "Length",
+                    "task": "To get the length of a dictionary, we can use the same <b>len()</b> function we used for lists. Can you remember the right syntax if we want to print the length for:\nplanets = {'Mercury': 'Merkur', 'Venus': 'Venus',\n     'Earth': 'Erde', 'Mars': 'Mars'}?",
+                    "multipleChoice": [
+                    {
+                        "title": "print(len{planets})",
+                        "solution": false
+                    },
+                    {
+                        "title": "print(len(planets))",
+                        "solution": true
+                    },
+                    {
+                        "title": "print(len[planets])",
+                        "solution": false
+                    }],
+                    "codeBlock": null,
+                    "feedbackFailed": "That is wrong. Please have another look! The braces make the difference here!",
+                    "feedbackPassed": "Exactly! 🙏🏻",
+                    "amselAction": null
+                },
+                {
+                    "id": "8b9ccc56-7942-4740-9491-9331f40ebffa",
+                    "index": 6,
+                    "title": "Add",
+                    "task": "To add key-value pairs we use the following syntax:",
+                    "multipleChoice": null,
+                    "codeBlock": [{
+                        "type": "code",
+                        "content": "planets = {'Mercury': 'Merkur',\n        'Venus': 'Venus'}"
+                    },
+                    {
+                        "type": "code",
+                        "content": "planets['Earth'] = 'Erde'\nprint(planets)"
+                    },
+                    {
+                        "type": "output",
+                        "content": "{'Mercury': 'Merkur', 'Venus': 'Venus,\n            'Earth': 'Erde'}"
+                    }],
+                    "feedbackFailed": null,
+                    "feedbackPassed": "Another way to add key-value pairs is with he update() method.",
+                    "amselAction": null
+                },
+                {
+                    "id": "c5ed9c2b-1dd8-4bb7-8fb1-75d8bbecde0b",
+                    "index": 7,
+                    "title": "Update",
+                    "task": "The <b>.update()</b> method is used to add or change key-value pairs. Please try it yourself and update the dictionary:",
+                    "multipleChoice": null,
+                    "codeBlock": [{
+                        "type": "code",
+                        "content": "planets = {'Mercury': 'Merkur',\n          'Venus': 'Venus'}\nplanets"
+                    },
+                    {
+                        "type": "gap",
+                        "content": ".update"
+                    },
+                    {
+                        "type": "code",
+                        "content": "({'Venus': 'Planet',\n                  'Earth': 'Erde'})\nprint(planets)"
+                    },
+                    {
+                        "type": "output",
+                        "content": "{'Mercury': 'Merkur',\n            'Venus': 'Planet',\n            'Earth': 'Erde'}"
+                    }],
+                    "feedbackFailed": "There is a mistake. Have a closer look. We want to <b>.update</b>",
+                    "feedbackPassed": "Well done! Have you noticed that the value of the Venus changed and the Earth key-value pair was added?",
+                    "amselAction": null
+                },
+                {
+                    "id": "37706752-4fcd-4a0b-afa5-a6905c76d225",
+                    "index": 8,
+                    "title": "Remove",
+                    "task": "But we also can remove key-value pairs with the <b>.pop()</b> method:",
+                    "multipleChoice": null,
+                    "codeBlock": [{
+                        "type": "code",
+                        "content": "planets = {'Mercury': 'Merkur',\n           'Venus': 'Venus',\n             'Earth': 'Erde'}"
+                    },
+                    {
+                        "type": "code",
+                        "content": "two_planets = planets."
+                    },
+                    {
+                        "type": "gap",
+                        "content": "pop("
+                    },
+                    {
+                        "type": "code",
+                        "content": "'Earth'"
+                    },
+                    {
+                        "type": "gap",
+                        "content": ")"
+                    },
+                    {
+                        "type": "code",
+                        "content": "print(two_planets)"
+                    },
+                    {
+                        "type": "output",
+                        "content": "{'Mercury': 'Merkur','Venus': 'Venus'}"
+                    }],
+                    "feedbackFailed": "Something looks odd. We need to fill in <b>pop()</b> to remove a key-value pair.",
+                    "feedbackPassed": "Perfect! That way we can remove key-value pairs from our dictionary.",
+                    "amselAction": null
+                },
+                {
+                    "id": "7a61026b-5d15-4427-9f23-50c3d001923c",
+                    "index": 9,
+                    "title": "Amsel 🐦",
+                    "task": "Let's remove a key-value pair from the dictionary and display the new dictionary on the Amsel screen.",
+                    "codeBlock": [
+                        {
+                            "type": "code",
+                            "content": "from amselpy import Amsel\namsel = Amsel()\nplanets = {'Mercury': 'Merkur',\n           'Venus': 'Venus'}\nsingle_planet = planets."
+                        },
+                        {
+                            "type": "gap",
+                            "content": "pop"
+                        },
+                        {
+                            "type": "code",
+                            "content": "('Venus')\nprint(single_planet)"
+                        }
+                    ],
+                    "feedbackFailed": "No interaction with Amsel? Try again and check your answer again. We have to fill in <b>pop</b> to remove an element from a dictionary.",
+                    "feedbackPassed": "Can you see the solution on the Amsel robot? Perfect! You did it!",
+                    "amselAction": {
+                        "type": "print",
+                        "parameter": ["{'Mercury': 'Merkur'}"]
+                    }
+                },
+                {
+                    "id": "b490b97b-848c-496c-8f39-da4b4aa50dd2",
+                    "index": 10,
+                    "title": "Recap I",
+                    "task": "Have you paid attention? What is true about dictionaries?",
+                    "multipleChoice": [
+                    {
+                        "title": "Dictionaries are unordered",
+                        "solution": true
+                    },
+                    {
+                        "title": "We can update key-value pairs",
+                        "solution": true
+                    },
+                    {
+                        "title": "Dictionaries contain one datatype",
+                        "solution": false
+                    },
+                    {
+                        "title": "Key-value pairs can be removed",
+                        "solution": true
+                    },
+                    {
+                        "title": "dict.pop() adds a key-value pair",
+                        "solution": false
+                    }],
+                    "codeBlock": null,
+                    "feedbackFailed": "Have a closer look. There is something wrong.",
+                    "feedbackPassed": "Perfect. But what do you know about creating a dictionary?",
+                    "amselAction": null
+                },
+                {
+                    "id": "010b6eff-cdb3-427e-b460-81ef8e532b0c",
+                    "index": 11,
+                    "title": "Recap II",
+                    "task": "Which of the following is a valid dictionary?",
+                    "multipleChoice": [
+                    {
+                        "title": "spaceships= {'NASA': 'Apollo'}",
+                        "solution": true
+                    },
+                    {
+                        "title": "astronauts= ['Germany': 'Gerst']",
+                        "solution": false
+                    },
+                    {
+                        "title": "moons: ('Earth': 'Moon')",
+                        "solution": false
+                    },
+                    {
+                        "title": "constellations= {'Gemini': 8}",
+                        "solution": true
+                    }],
+                    "codeBlock": null,
+                    "feedbackFailed": "Have a closer look please - something is wrong.",
+                    "feedbackPassed": "Perfect! Square brackets are for lists and the round one for tuples. Dictionaries are with braces and can contain different datatypes.",
+                    "amselAction": null
+                }
+            ]
+        },
+        {
+            "id": "9bcd465c-04a1-4c37-bfb2-c289c35a4ecd",
+            "index": 10,
+            "title": "Loops",
+            "sections":
+            [
+                {
+                    "id": "af676fe1-4eca-4d73-a46b-94651fe9157b",
+                    "index": 1,
+                    "title": "Loops",
+                    "task": "Tasks often need to be run over and over again. To write the same lines of code multiple times is not really efficent. But there is a beautiful solution for that: loops. There two kind of loops - while loops and for loops. We will deal with both of them in this chapter.",
+                    "multipleChoice": null,
+                    "codeBlock": null,
+                    "feedbackFailed": null,
+                    "feedbackPassed": null,
+                    "amselAction": null
+                },
+                {
+                "id": "79f54e4e-cb9f-4e2a-8411-4584f7c759e4",
+                    "index": 2,
+                    "title": "While Loop I",
+                    "task": "While loops repeats code as long as a certain condition is true. Let's see how a while loop is build:",
+                    "multipleChoice": null,
+                    "codeBlock": [{
+                        "type": "code",
+                        "content": "while True:\n   print('One more Time!')"
+                    },
+                    {
+                        "type": "output",
+                        "content": "One more Time!\nOne more Time!\nOne more Time!\nOne more Time!\nOne more Time!\n..."
+                    }],
+                    "feedbackFailed": null,
+                    "feedbackPassed": "Well - now we have a problem: the loop will never stop, because the condition is always true - an inifite loop.",
+                    "amselAction": null
+                },
+                {
+                "id": "af99d882-5545-4abf-8d23-e9df87fecdf6",
+                    "index": 3,
+                    "title": "While Loop II",
+                    "task": "But we can stop the loop if we use a counter variable.",
+                    "multipleChoice": null,
+                    "codeBlock": [{
+                        "type": "code",
+                        "content": "time = 0\nwhile time <= 5:\n   print(time)\n   time += 1"
+                    },
+
+                    {
+                        "type": "output",
+                        "content": "0\n1\n2\n3\n4"
+                    }],
+                    "feedbackFailed": null,
+                    "feedbackPassed": "The while loop prints the value of the time variable as long the value is smaller than five. At the end of the loop we count the speed variable up, so it can stop after five roundes.",
+                    "amselAction": null
+                },
+                {
+                "id": "77adf5c3-14c7-4c6f-91a8-efa887aa5627",
+                    "index": 4,
+                    "title": "While Loops III",
+                    "task": "We can use all conditional tests to control while loops:",
+                    "multipleChoice": null,
+                    "codeBlock": [{
+                        "type": "code",
+                        "content": "time = 60\nwhile time > 10:\n   print(time)\n   time -= 10"
+                    },
+                    {
+                        "type": "output",
+                        "content": "60\n50\n40\n30\n20"
+                    }],
+                    "feedbackFailed": null,
+                    "feedbackPassed": "Perfect! Now we want to know more about for loops.",
+                    "amselAction": null
+                },
+                {
+                "id": "9be5560f-a7e6-4c7d-8ccb-6a82c2060dcb",
+                    "index": 5,
+                    "title": "For...in",
+                    "task": "Besides While Loops, we can loop through a specific range.",
+                    "multipleChoice": null,
+                    "codeBlock": [{
+                        "type": "code",
+                        "content": "for time in range(1, 5):\n   print(time)"
+                    },
+                    {
+                        "type": "output",
+                        "content": "1\n2\n3\n4"
+                    }],
+                    "feedbackFailed": null,
+                    "feedbackPassed": "Easy like that - we also use a counter variable but instead of counting it up, we define a <b>range</b>. The first number is the starting point, followed by a comma and a last number to mark the end of the range. The last number is not included in the range, so it is necessary to add one to get the full range.",
+                    "amselAction": null
+                },
+                {
+                "id": "c10c67f8-0399-422c-bbb2-4c3a2be043d2",
+                    "index": 6,
+                    "title": "Loops & Lists I",
+                    "task": "We can use for loops to go through lists...",
+                    "multipleChoice": null,
+                    "codeBlock": [{
+                        "type": "code",
+                        "content": "planets = ['Mercury', 'Venus', 'Earth']"
+                    },
+                    {
+                        "type": "code",
+                        "content": "for planet in planets:\n    print(planet)"
+                    },
+                    {
+                        "type": "output",
+                        "content": "Mercury\nVenus\nEarth"
+                    }],
+                    "feedbackFailed": null,
+                    "feedbackPassed": null,
+                    "amselAction": null
+                },
+                {
+                "id": "51b13ee0-cbfb-4d55-b58e-293c2cc18260",
+                    "index": 7,
+                    "title": "Loops & Lists II",
+                    "task": "We can also create numerical lists for a predefined range. To do so we have to define an empty list and append the values within the loop:",
+                    "multipleChoice": null,
+                    "codeBlock": [{
+                        "type": "code",
+                        "content": "numbers = []"
+                    },
+                    {
+                        "type": "code",
+                        "content": "for x in range(1, 5):\n    numbers.append(x)\n    print(numbers)"
+                    },
+                    {
+                        "type": "output",
+                        "content": "[1, 2, 3, 4]"
+                    }],
+                    "feedbackFailed": null,
+                    "feedbackPassed": "Besides for lists, loops are also useful when working with dictionaries.",
+                    "amselAction": null
+                },
+                {
+                "id": "5944d94f-9faf-4e78-914f-a2be129e1c4f",
+                    "index": 8,
+                    "title": "Loops & Dictionaries I",
+                    "task": "We can also use the for loop to go through all key-value pairs of a dictionary:",
+                    "multipleChoice": null,
+                    "codeBlock": [{
+                        "type": "code",
+                        "content": "planets = {'Mercury': '1.', 'Venus': '2.'\n           'Earth': '3.'}"
+                    },
+                    {
+                        "type": "code",
+                        "content": "for planet, number in planets.items():\n    print(number+ ' planet is ' +planet)"
+                    },
+                    {
+                        "type": "output",
+                        "content": "1. planet is Mercury\n2. planet is Venus\n3. planet is Earth"
+                    }],
+                    "feedbackFailed": null,
+                    "feedbackPassed": "Our for loop uses the key and the value in the dictionaryto go over every item.",
+                    "amselAction": null
+                },
+                {
+                "id": "bd3b19a4-1f24-455f-85b0-4f4df9cea929",
+                    "index": 9,
+                    "title": "Loops & Dictionaries II",
+                    "task": "Besides key-value pairs we can loop through every key...",
+                    "multipleChoice": null,
+                    "codeBlock": [{
+                        "type": "code",
+                        "content": "planets = {'Mercury': '1.', 'Venus': '2.'\n           'Earth': '3.'}"
+                    },
+                    {
+                        "type": "code",
+                        "content": "for planet in planets.keys():\n    print(planet)"
+                    },
+                    {
+                        "type": "output",
+                        "content": "Mercury\nVenus\nEarth"
+                    }],
+                    "feedbackFailed": null,
+                    "feedbackPassed": "The .keys() method allows us to go through all keys of the dictionary.",
+                    "amselAction": null
+                },
+                {
+                "id": "7e3e4774-52f3-452d-a449-e03845ba2799",
+                    "index": 10,
+                    "title": "Loops & Dictionaries II",
+                    "task": "...or loop through all values:",
+                    "multipleChoice": null,
+                    "codeBlock": [{
+                        "type": "code",
+                        "content": "planets = {'Mercury': '1.', 'Venus': '2.'\n           'Earth': '3.'}"
+                    },
+                    {
+                        "type": "code",
+                        "content": "for number in planets.values():\n    print(number)"
+                    },
+                    {
+                        "type": "output",
+                        "content": "1.\n2.\n3."
+                    }],
+                    "feedbackFailed": null,
+                    "feedbackPassed": "Here we use the values() method to access all values.",
+                    "amselAction": null
+                },
+                {
+                    "id": "015fb02d-55d6-46b6-96da-57737e269eeb",
+                    "index": 11,
+                    "title": "Amsel 🐦",
+                    "task": "Let's have some fun with Amsel and loops.<br><br>Let the Amsel rotate for 15 seconds!",
+                    "codeBlock": [
+                        {
+                            "type": "code",
+                            "content": "from amselpy import Amsel\nimport time\namsel = Amsel()\nnow = time.time()\n "
+                        },
+                        {
+                            "type": "gap",
+                            "content": "while"
+                        },
+                        {
+                            "type": "code",
+                            "content": "int(later - now)<= 15:\n  later = time.time()\n   amsel.left()"
+                        }
+                    ],
+                    "feedbackFailed": "No interaction with Amsel? Try again to complete the while loop.",
+                    "feedbackPassed": "Can you see the solution on the Amsel robot? Perfect! You did it! We used the time module",
+                    "amselAction": {
+                        "type": "left",
+                        "parameter": ["16"]
+                    }
+                },
+                {
+                "id": "654d80a4-c983-44e8-a948-762398a1f258",
+                    "index": 12,
+                    "title": "Recap",
+                    "task": "You've learned a lot about loops. How much do you remeber? What is true about loops",
+                    "multipleChoice": [
+                    {
+                        "title": "Conditional loops exsist",
+                        "solution": false
+                    },
+                    {
+                        "title": "A while loop can run infinte",
+                        "solution": true
+                    },
+                    {
+                        "title": "A for loop uses a range",
+                        "solution": true
+                    },
+                    {
+                        "title": "A while loop uses a range",
+                        "solution": false
+                    }],
+                    "codeBlock": null,
+                    "feedbackFailed": "There is a mistake. Please check again",
+                    "feedbackPassed": "Perfect - well done! 🏅 There are while and for loops. While loops can run infinte. For loops can be used to work with dictionaries and lists or run for a certain range.",
+                    "amselAction": null
+                }
+            ]
+        },
+        {
+            "id": "47410688-4b18-47ec-9cfc-133694a89ae1",
+            "index": 11,
+            "title": "Functions",
+            "sections":
+            [
+                {
+                    "id": "55d9310b-4a27-4c88-ba2d-b3429dd72763",
+                    "index": 1,
+                    "title": "Functions",
+                    "task": "Functions are blocks of codes, which are made to fulfill a certain task. We've worked with the Amsel function the whole time. And we already know another very famous built-in function: print().",
+                    "multipleChoice": null,
+                    "codeBlock": [{
+                        "type": "code",
+                        "content": "print('Functions are super useful!')"
+                    },
+                    {
+                        "type": "output",
+                        "content": "Functions are super useful!"
+                    }],
+                    "feedbackFailed": null,
+                    "feedbackPassed": "The function is followed by parantheses, in which we have to put in an in a parameter.",
+                    "amselAction": null
+                },
+                {
+                    "id": "3484bbe7-c489-4d2a-a51a-352d1ab6ce76",
+                    "index": 2,
+                    "title": "Custom Functions",
+                    "task": "We can also do our own functions. The right syntax for that is: def, a name, parantheses wiht a parameter and a colon.",
+                    "multipleChoice": null,
+                    "codeBlock": [{
+                        "type": "code",
+                        "content": "def welcome(name):"
+                    },
+                    {
+                        "type": "code",
+                        "content": "   print('Welcome to the spaceship '\n                        + name + '!')"
+                    },
+                    {
+                        "type": "code",
+                        "content": "welcome('Chloe')"
+                    },
+                    {
+                        "type": "output",
+                        "content": "Welcome to the spaceship Chloe!"
+                    }],
+                    "feedbackFailed": null,
+                    "feedbackPassed": "Wow! We build our function as described above. name is a parameter which is used within the function. We can pass that parameter a specific value, or argument, like Chloe. The argument is then used within the function.",
+                    "amselAction": null
+                },
+                {
+                    "id": "d921f4b3-2673-493b-9f2f-20d3c1ce8187",
+                    "index": 3,
+                    "title": "Return",
+                    "task": "If we want our own function to return a certain value or variable we use return. Let's see how that works:",
+                    "multipleChoice": null,
+                    "codeBlock": [{
+                        "type": "code",
+                        "content": "def celsius(fahrenheit):"
+                    },
+                    {
+                        "type": "code",
+                        "content": "   celsius = (fahrenheit-32)/1.8 '\n                        return celsius\n\nfahrenheit = 71\ntemp = celsius(231)\nprint(str(temp) + ' °C')"
+                    },
+                    {
+                        "type": "output",
+                        "content": "21.6666667 °C"
+                    }],
+                    "feedbackFailed": null,
+                    "feedbackPassed": "The celsius value gets returned and we can use the celsius function whenever we need it. <br><br> Oh and did you notice the str() in the print function? That is another build in function, which automatically converts the float into a string. Super useful right?",
+                    "amselAction": null
+                },
+                {
+                    "id": "f5d5acab-f073-4375-92a6-d97da2ced892",
+                    "index": 4,
+                    "title": "Amsel 🐦",
+                    "task": "Let's use the build in Amsel function one more time! Let Amsel drive for 5 seconds.",
+                    "multipleChoice": null,
+                     "codeBlock": [
+                       {
+                           "type": "code",
+                           "content": "from amselpy import Amsel\namsel = Amsel()\n "
+                       },
+                       {
+                           "type": "gap",
+                           "content": "amsel.forward(5)"
+                       }],
+                   "feedbackFailed": null,
+                   "feedbackPassed": "And thats it! You've completed all courses and learned a lot about Python. 🐍🦾<br><br> Now it is all up to you! Learn and read more about developing with Python. And even more important: code! You will learn so much by trying - and don't worry if errors occure. That is completely normal and you will learn so much by fixing them. And don't hesitate to ask your friends and professors for help!",
+                   "amselAction": {
+                       "type": "forward",
+                       "parameter": ["5"]
+                   }
+                }
+            ]
+        }
+    ]
+}

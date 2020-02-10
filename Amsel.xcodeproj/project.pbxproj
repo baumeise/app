@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		856239EA23819F4900322AC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 856239E923819F4900322AC3 /* AppDelegate.swift */; };
+		856239EC23819F4900322AC3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 856239EB23819F4900322AC3 /* SceneDelegate.swift */; };
+		856239EE23819F4900322AC3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 856239ED23819F4900322AC3 /* HomeViewController.swift */; };
+		856239F323819F4B00322AC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 856239F223819F4B00322AC3 /* Assets.xcassets */; };
+		856239F623819F4B00322AC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 856239F423819F4B00322AC3 /* LaunchScreen.storyboard */; };
+		856E50342381C66900769D18 /* Amsel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 856E50332381C66900769D18 /* Amsel.swift */; };
+		85CF79C023873F53008D5F1C /* UICustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85CF79BF23873F53008D5F1C /* UICustom.swift */; };
+		85DC255323E2D7400051B52A /* LiteratureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DC255223E2D7400051B52A /* LiteratureViewController.swift */; };
+		85FA2FAB2381A2EA00C4CF21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85FA2FA92381A2EA00C4CF21 /* Main.storyboard */; };
+		B2200B7523C0AFDF00EADBFA /* MultipleChoiceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2200B7423C0AFDF00EADBFA /* MultipleChoiceCell.swift */; };
+		B2200B7723C0B5E200EADBFA /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2200B7623C0B5E200EADBFA /* Extensions.swift */; };
+		B235704623C1E1B800ED5181 /* CodeBlockGapCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B235704523C1E1B800ED5181 /* CodeBlockGapCell.swift */; };
+		B235704823C22AF700ED5181 /* CodeBlockCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B235704723C22AF700ED5181 /* CodeBlockCollectionView.swift */; };
+		B235704A23C22EEE00ED5181 /* CodeBlockCodeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B235704923C22EEE00ED5181 /* CodeBlockCodeCell.swift */; };
+		B235704C23C22F1400ED5181 /* CodeBlockOutputCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B235704B23C22F1400ED5181 /* CodeBlockOutputCell.swift */; };
+		B235704E23C232BA00ED5181 /* CodeBlockFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = B235704D23C232BA00ED5181 /* CodeBlockFlowLayout.swift */; };
+		B2681D4923DE31CB00B388E4 /* AmselLesson.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2681D4823DE31CB00B388E4 /* AmselLesson.swift */; };
+		B289810E239308B4009A49D0 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B289810D239308B4009A49D0 /* NetworkExtension.framework */; };
+		B2A65B7B23BD1EB500172439 /* MultipleChoiceTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A65B7A23BD1EB500172439 /* MultipleChoiceTable.swift */; };
+		B2A65B7E23BD476600172439 /* lessons.json in Resources */ = {isa = PBXBuildFile; fileRef = B2A65B7D23BD476600172439 /* lessons.json */; };
+		B2A65B8023BD484600172439 /* users.json in Resources */ = {isa = PBXBuildFile; fileRef = B2A65B7F23BD484600172439 /* users.json */; };
+		B2A65B8223BD485A00172439 /* amsels.json in Resources */ = {isa = PBXBuildFile; fileRef = B2A65B8123BD485A00172439 /* amsels.json */; };
+		B2A65B8423BD4A7500172439 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A65B8323BD4A7500172439 /* Settings.swift */; };
+		B2A65B8823BD5D5E00172439 /* LessonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A65B8723BD5D5E00172439 /* LessonCell.swift */; };
+		B2A65B8A23BD644A00172439 /* LessonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A65B8923BD644A00172439 /* LessonViewController.swift */; };
+		B2A7C80B23BD083800EDA7BA /* PlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A7C80A23BD083800EDA7BA /* PlayViewController.swift */; };
+		B2A7C80D23BD0FD000EDA7BA /* GradientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A7C80C23BD0FD000EDA7BA /* GradientViewController.swift */; };
+		B2A7C80F23BD147B00EDA7BA /* LearnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A7C80E23BD147B00EDA7BA /* LearnViewController.swift */; };
+		B2A7C81123BD148C00EDA7BA /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A7C81023BD148C00EDA7BA /* SettingsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		856239E623819F4900322AC3 /* Amsel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Amsel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		856239E923819F4900322AC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		856239EB23819F4900322AC3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		856239ED23819F4900322AC3 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		856239F223819F4B00322AC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		856239F523819F4B00322AC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		856239F723819F4B00322AC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		856E50332381C66900769D18 /* Amsel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amsel.swift; sourceTree = "<group>"; };
+		85CF79BF23873F53008D5F1C /* UICustom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICustom.swift; sourceTree = "<group>"; };
+		85DC255223E2D7400051B52A /* LiteratureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiteratureViewController.swift; sourceTree = "<group>"; };
+		85FA2FAA2381A2EA00C4CF21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B2200B7423C0AFDF00EADBFA /* MultipleChoiceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleChoiceCell.swift; sourceTree = "<group>"; };
+		B2200B7623C0B5E200EADBFA /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		B235704523C1E1B800ED5181 /* CodeBlockGapCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeBlockGapCell.swift; sourceTree = "<group>"; };
+		B235704723C22AF700ED5181 /* CodeBlockCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeBlockCollectionView.swift; sourceTree = "<group>"; };
+		B235704923C22EEE00ED5181 /* CodeBlockCodeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeBlockCodeCell.swift; sourceTree = "<group>"; };
+		B235704B23C22F1400ED5181 /* CodeBlockOutputCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeBlockOutputCell.swift; sourceTree = "<group>"; };
+		B235704D23C232BA00ED5181 /* CodeBlockFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeBlockFlowLayout.swift; sourceTree = "<group>"; };
+		B2681D4823DE31CB00B388E4 /* AmselLesson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmselLesson.swift; sourceTree = "<group>"; };
+		B289810B239308B4009A49D0 /* Amsel.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Amsel.entitlements; sourceTree = "<group>"; };
+		B289810D239308B4009A49D0 /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
+		B2A65B7A23BD1EB500172439 /* MultipleChoiceTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleChoiceTable.swift; sourceTree = "<group>"; };
+		B2A65B7D23BD476600172439 /* lessons.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = lessons.json; sourceTree = "<group>"; };
+		B2A65B7F23BD484600172439 /* users.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = users.json; sourceTree = "<group>"; };
+		B2A65B8123BD485A00172439 /* amsels.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = amsels.json; sourceTree = "<group>"; };
+		B2A65B8323BD4A7500172439 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		B2A65B8723BD5D5E00172439 /* LessonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonCell.swift; sourceTree = "<group>"; };
+		B2A65B8923BD644A00172439 /* LessonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonViewController.swift; sourceTree = "<group>"; };
+		B2A7C80A23BD083800EDA7BA /* PlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayViewController.swift; sourceTree = "<group>"; };
+		B2A7C80C23BD0FD000EDA7BA /* GradientViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientViewController.swift; sourceTree = "<group>"; };
+		B2A7C80E23BD147B00EDA7BA /* LearnViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnViewController.swift; sourceTree = "<group>"; };
+		B2A7C81023BD148C00EDA7BA /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		856239E323819F4900322AC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B289810E239308B4009A49D0 /* NetworkExtension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		856239DD23819F4900322AC3 = {
+			isa = PBXGroup;
+			children = (
+				856239E823819F4900322AC3 /* Amsel */,
+				856239E723819F4900322AC3 /* Products */,
+				B289810C239308B4009A49D0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		856239E723819F4900322AC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				856239E623819F4900322AC3 /* Amsel.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		856239E823819F4900322AC3 /* Amsel */ = {
+			isa = PBXGroup;
+			children = (
+				B2A7C81423BD152A00EDA7BA /* Amsel API */,
+				B2A7C81323BD14EB00EDA7BA /* Custom Classes */,
+				B2A7C81223BD14D100EDA7BA /* View Controllers */,
+				B289810B239308B4009A49D0 /* Amsel.entitlements */,
+				856239E923819F4900322AC3 /* AppDelegate.swift */,
+				856239EB23819F4900322AC3 /* SceneDelegate.swift */,
+				856239F423819F4B00322AC3 /* LaunchScreen.storyboard */,
+				85FA2FA92381A2EA00C4CF21 /* Main.storyboard */,
+				856239F723819F4B00322AC3 /* Info.plist */,
+				856239F223819F4B00322AC3 /* Assets.xcassets */,
+				B2A65B7C23BD472200172439 /* Content */,
+			);
+			path = Amsel;
+			sourceTree = "<group>";
+		};
+		B289810C239308B4009A49D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B289810D239308B4009A49D0 /* NetworkExtension.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B2A65B7C23BD472200172439 /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				B2A65B7D23BD476600172439 /* lessons.json */,
+				B2A65B7F23BD484600172439 /* users.json */,
+				B2A65B8123BD485A00172439 /* amsels.json */,
+				B2A65B8323BD4A7500172439 /* Settings.swift */,
+			);
+			path = Content;
+			sourceTree = "<group>";
+		};
+		B2A7C81223BD14D100EDA7BA /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				856239ED23819F4900322AC3 /* HomeViewController.swift */,
+				B2A7C80E23BD147B00EDA7BA /* LearnViewController.swift */,
+				B2A7C80A23BD083800EDA7BA /* PlayViewController.swift */,
+				B2A7C81023BD148C00EDA7BA /* SettingsViewController.swift */,
+				B2A65B8923BD644A00172439 /* LessonViewController.swift */,
+				85DC255223E2D7400051B52A /* LiteratureViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		B2A7C81323BD14EB00EDA7BA /* Custom Classes */ = {
+			isa = PBXGroup;
+			children = (
+				85CF79BF23873F53008D5F1C /* UICustom.swift */,
+				B2A7C80C23BD0FD000EDA7BA /* GradientViewController.swift */,
+				B2A65B7A23BD1EB500172439 /* MultipleChoiceTable.swift */,
+				B2200B7423C0AFDF00EADBFA /* MultipleChoiceCell.swift */,
+				B2A65B8723BD5D5E00172439 /* LessonCell.swift */,
+				B2200B7623C0B5E200EADBFA /* Extensions.swift */,
+				B235704723C22AF700ED5181 /* CodeBlockCollectionView.swift */,
+				B235704D23C232BA00ED5181 /* CodeBlockFlowLayout.swift */,
+				B235704523C1E1B800ED5181 /* CodeBlockGapCell.swift */,
+				B235704923C22EEE00ED5181 /* CodeBlockCodeCell.swift */,
+				B235704B23C22F1400ED5181 /* CodeBlockOutputCell.swift */,
+			);
+			path = "Custom Classes";
+			sourceTree = "<group>";
+		};
+		B2A7C81423BD152A00EDA7BA /* Amsel API */ = {
+			isa = PBXGroup;
+			children = (
+				856E50332381C66900769D18 /* Amsel.swift */,
+				B2681D4823DE31CB00B388E4 /* AmselLesson.swift */,
+			);
+			path = "Amsel API";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		856239E523819F4900322AC3 /* Amsel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 856239FA23819F4B00322AC3 /* Build configuration list for PBXNativeTarget "Amsel" */;
+			buildPhases = (
+				856239E223819F4900322AC3 /* Sources */,
+				856239E323819F4900322AC3 /* Frameworks */,
+				856239E423819F4900322AC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Amsel;
+			packageProductDependencies = (
+			);
+			productName = Amsel;
+			productReference = 856239E623819F4900322AC3 /* Amsel.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		856239DE23819F4900322AC3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = Anja;
+				TargetAttributes = {
+					856239E523819F4900322AC3 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 856239E123819F4900322AC3 /* Build configuration list for PBXProject "Amsel" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 856239DD23819F4900322AC3;
+			packageReferences = (
+			);
+			productRefGroup = 856239E723819F4900322AC3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				856239E523819F4900322AC3 /* Amsel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		856239E423819F4900322AC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2A65B8223BD485A00172439 /* amsels.json in Resources */,
+				B2A65B8023BD484600172439 /* users.json in Resources */,
+				85FA2FAB2381A2EA00C4CF21 /* Main.storyboard in Resources */,
+				856239F623819F4B00322AC3 /* LaunchScreen.storyboard in Resources */,
+				856239F323819F4B00322AC3 /* Assets.xcassets in Resources */,
+				B2A65B7E23BD476600172439 /* lessons.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		856239E223819F4900322AC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2200B7523C0AFDF00EADBFA /* MultipleChoiceCell.swift in Sources */,
+				B2A65B7B23BD1EB500172439 /* MultipleChoiceTable.swift in Sources */,
+				856E50342381C66900769D18 /* Amsel.swift in Sources */,
+				85CF79C023873F53008D5F1C /* UICustom.swift in Sources */,
+				856239EE23819F4900322AC3 /* HomeViewController.swift in Sources */,
+				85DC255323E2D7400051B52A /* LiteratureViewController.swift in Sources */,
+				B235704A23C22EEE00ED5181 /* CodeBlockCodeCell.swift in Sources */,
+				856239EA23819F4900322AC3 /* AppDelegate.swift in Sources */,
+				B235704C23C22F1400ED5181 /* CodeBlockOutputCell.swift in Sources */,
+				B2A65B8823BD5D5E00172439 /* LessonCell.swift in Sources */,
+				B2A7C80D23BD0FD000EDA7BA /* GradientViewController.swift in Sources */,
+				B2A7C80F23BD147B00EDA7BA /* LearnViewController.swift in Sources */,
+				B2A7C80B23BD083800EDA7BA /* PlayViewController.swift in Sources */,
+				B2681D4923DE31CB00B388E4 /* AmselLesson.swift in Sources */,
+				B2200B7723C0B5E200EADBFA /* Extensions.swift in Sources */,
+				B235704623C1E1B800ED5181 /* CodeBlockGapCell.swift in Sources */,
+				856239EC23819F4900322AC3 /* SceneDelegate.swift in Sources */,
+				B2A65B8423BD4A7500172439 /* Settings.swift in Sources */,
+				B235704E23C232BA00ED5181 /* CodeBlockFlowLayout.swift in Sources */,
+				B235704823C22AF700ED5181 /* CodeBlockCollectionView.swift in Sources */,
+				B2A65B8A23BD644A00172439 /* LessonViewController.swift in Sources */,
+				B2A7C81123BD148C00EDA7BA /* SettingsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		856239F423819F4B00322AC3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				856239F523819F4B00322AC3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		85FA2FA92381A2EA00C4CF21 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85FA2FAA2381A2EA00C4CF21 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		856239F823819F4B00322AC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		856239F923819F4B00322AC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		856239FB23819F4B00322AC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Amsel/Amsel.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2Y65PN7559;
+				INFOPLIST_FILE = Amsel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hdm.Amsel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		856239FC23819F4B00322AC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Amsel/Amsel.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2Y65PN7559;
+				INFOPLIST_FILE = Amsel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hdm.Amsel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		856239E123819F4900322AC3 /* Build configuration list for PBXProject "Amsel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				856239F823819F4B00322AC3 /* Debug */,
+				856239F923819F4B00322AC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		856239FA23819F4B00322AC3 /* Build configuration list for PBXNativeTarget "Amsel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				856239FB23819F4B00322AC3 /* Debug */,
+				856239FC23819F4B00322AC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 856239DE23819F4900322AC3 /* Project object */;
+}
